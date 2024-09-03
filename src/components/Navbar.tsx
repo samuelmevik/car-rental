@@ -13,9 +13,9 @@ function Navbar() {
   }
 
   return (
-    <div className="h-16 w-full fixed bg-blue-400 ">
+    <div className="z-50 h-16 w-full fixed backdrop-blur-lg">
       <div className="size-full mx-auto max-w-7xl flex justify-between items-center p-2">
-        <a href="#"><FaCar className="size-12" /></a>
+        <a href="#"><FaCar className="size-12 text-orange-500" /></a>
         <button className="z-10 md:hidden" onClick={toggleNavbar}>
           {
             isOpen ? <GoX className="size-12" /> : <CiMenuFries className="size-12" />
