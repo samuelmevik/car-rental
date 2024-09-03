@@ -1,11 +1,19 @@
+import Booking from "./components/Booking"
+import Header from "./components/Header"
 import Navbar from "./components/Navbar"
+import OrderGuide from "./components/OrderGuide"
+import Wrapper from "./components/Wrapper"
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <p className='bg-blue-500'>Tailwind</p>
-    </div>
+      <Wrapper>
+        <Header />
+        <Booking />
+        <OrderGuide />
+      </Wrapper>
+    </>
   )
 }
 
