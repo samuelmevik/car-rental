@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div className="z-50 h-16 w-full fixed backdrop-blur-lg">
       <div className="size-full mx-auto max-w-7xl flex justify-between items-center p-2">
-        <a href="#"><FaCar className="size-12 text-orange-500" /></a>
+        <a href="#"><FaCar className="size-12 text-primary" /></a>
         <button className="z-10 md:hidden" onClick={toggleNavbar}>
           {
             isOpen ? <GoX className="size-12" /> : <CiMenuFries className="size-12" />
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
 
         <div className="hidden md:flex gap-4">
-          <button className="duration-500 hover:text-orange-500">Sign In</button>
+          <button className="duration-500 hover:text-primary">Sign In</button>
           <FatButton text="Sign Up" hover />
         </div>
 
