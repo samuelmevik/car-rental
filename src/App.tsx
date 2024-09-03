@@ -1,7 +1,8 @@
-import Booking from "./components/Booking"
+import Booking from "./components/BookingSection"
+import CarSelector from "./components/CarSelectorSection"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
-import OrderGuide from "./components/OrderGuide"
+import OrderGuide from "./components/OrderSection"
 import Wrapper from "./components/Wrapper"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Booking />
         <OrderGuide />
+        <CarSelector />
       </Wrapper>
     </>
   )

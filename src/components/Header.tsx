@@ -1,4 +1,4 @@
-import FatButton from "./ui/FatButton"
+import PrimaryButton from "./ui/PrimaryButton"
 
 function Header() {
   return (
@@ -10,8 +10,8 @@ function Header() {
             <h1>Rent <span className="text-primary">&</span> Save Big!</h1>
             <p>Drive your dream car today! Unbeatable rates, unlimited miles, flexible pick-up, and endless possibilities await you</p>
             <div className="flex gap-4 pt-2 justify-center">
-              <FatButton text="Book Now" hover />
-              <FatButton text="Learn More" hover />
+              <PrimaryButton text="Book Now" hover />
+              <PrimaryButton text="Learn More" hover />
             </div>
           </div>
           <div className="hidden sm:block absolute top-0 right-0 w-[calc(max(60vmin,600px))]">
