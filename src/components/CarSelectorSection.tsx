@@ -27,9 +27,9 @@ function CarSelector() {
             <CarDataEntry label="Doors" value={selectedCar.doors} />
             <CarDataEntry label="AC" value={selectedCar.ac} />
             <CarDataEntry label="Transmission" value={selectedCar.transmission} />
-            <PrimaryButton text="Rent now" hover />
+            
           </div>
-          
+          <PrimaryButton text="Rent now" hover />
         </div>
       </div>
     </div>
