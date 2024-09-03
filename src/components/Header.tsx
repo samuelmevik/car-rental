@@ -7,7 +7,7 @@ function Header() {
         <div className="flex relative">
           <div className="min-w-10 sm:max-w-lg z-10 grid text-center">
             <h2>Plan your trip now</h2>
-            <h1>Rent <span className="text-orange-500">&</span> Save Big!</h1>
+            <h1>Rent <span className="text-primary">&</span> Save Big!</h1>
             <p>Drive your dream car today! Unbeatable rates, unlimited miles, flexible pick-up, and endless possibilities await you</p>
             <div className="flex gap-4 pt-2 justify-center">
               <FatButton text="Book Now" hover />
