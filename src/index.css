@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: #f97316;
+  --secondary: #ffedd5;
+}
+
 body {
   font-family: SpaceGrotesk-Regular;
   font-size: 1rem;
