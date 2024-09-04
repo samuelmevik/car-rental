@@ -16,7 +16,9 @@ const router = createBrowserRouter([
   { path: '/testimonials', element: <TestimonialsPage /> },
   { path: '/our-team', element: <OurTeamPage /> },
   { path: '/contact', element: <ContactPage /> },
-])
+], {
+  basename: '/rental-car/',
+})
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
