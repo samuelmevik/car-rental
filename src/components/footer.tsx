@@ -8,7 +8,7 @@ function Footer() {
       <div className="h-full grid grid-cols-2 sm:grid-cols-4 gap-1 bg-secondary *:p-2 *:bg-white text-center">
       <div className="flex flex-col gap-2">
           <h2>Car Rental</h2>
-          <p>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
+          <p className="text-balance">We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
           <p className="font-semibold inline-flex items-center self-center"><MdPhoneInTalk /> (+46)-123-456</p>
         </div>
         <div className="flex flex-col gap-2">
@@ -27,7 +27,7 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-2">
           <h2>Subscription</h2>
-          <p>Subscribe your Email address for latest news <span className="text-primary">&</span> updates.</p>
+          <p className="text-balance">Subscribe your Email address for latest news <span className="text-primary">&</span> updates.</p>
           <input type="email" placeholder="Enter your email" className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5" />
           <PrimaryButton text="Subscribe" hover />
         </div>
