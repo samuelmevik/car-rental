@@ -18,7 +18,7 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div className={twMerge("z-50 h-16 w-full fixed backdrop-blur-lg", className)}>
       <div className="size-full mx-auto max-w-7xl flex justify-between items-center p-2">
-        <a className="z-40" href="#"><FaCar className="size-12 text-primary" /></a>
+        <Link className="z-20" to="/"><FaCar className="size-12 text-primary" /></Link>
         <button className="z-20 md:hidden" onClick={toggleNavbar}>
           {
             isOpen ? <GoX className="size-12" /> : <CiMenuFries className="size-12" />
