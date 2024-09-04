@@ -1,9 +1,13 @@
+import Directory from "../../components/Directory";
+import Layout from "../../components/Layout";
+import Testimonials from "../../components/Testimonials";
+
 function TestimonialsPage() {
   return (
-    <div>
-      <h1>Testimonials</h1>
-      <p>Coming soon...</p>
-    </div>
+    <Layout>
+      <Directory path="testimonials" />
+      <Testimonials />
+    </Layout>
   );
 }
 
