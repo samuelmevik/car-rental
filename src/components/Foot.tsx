@@ -2,7 +2,7 @@
 import PrimaryButton from "./ui/PrimaryButton";
 import { MdPhoneInTalk } from "react-icons/md";
 
-function Footer() {
+function Foot() {
   return (
     <footer className="max-h-fit h-56 mt-auto">
       <div className="h-full grid grid-cols-2 sm:grid-cols-4 gap-1 *:p-2 text-center">
@@ -36,4 +36,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Foot;
