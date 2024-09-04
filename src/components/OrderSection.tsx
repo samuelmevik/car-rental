@@ -3,7 +3,7 @@ import { IoCarSport, IoPerson } from "react-icons/io5"
 
 function OrderGuide() {
   return (
-    <div className="pt-12">
+    <div>
       <h2 className="text-center">Plan your trip now</h2>
       <h1 className="text-center">Quick <span className="text-primary">&</span> Easy Car Rental</h1>
       <div className="grid sm:grid-flow-col gap-3 h-max text-center sm:pt-12">

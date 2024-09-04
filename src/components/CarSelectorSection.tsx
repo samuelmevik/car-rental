@@ -5,7 +5,7 @@ import PrimaryButton from "./ui/PrimaryButton"
 function CarSelector() {
   const [selectedCar, setSelectedCar] = useState<Car>(cars[0])
   return (
-    <div className="pt-12">
+    <div>
       <h2 className="text-center">Vehicle models</h2>
       <h1 className="text-center">Our Rental Fleet</h1>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -27,9 +27,8 @@ function CarSelector() {
             <CarDataEntry label="Doors" value={selectedCar.doors} />
             <CarDataEntry label="AC" value={selectedCar.ac} />
             <CarDataEntry label="Transmission" value={selectedCar.transmission} />
-            
           </div>
-          <PrimaryButton text="Rent now" hover />
+          <PrimaryButton className="border-t-0" text="Rent now" hover />
         </div>
       </div>
     </div>

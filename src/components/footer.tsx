@@ -4,7 +4,7 @@ import { MdPhoneInTalk } from "react-icons/md";
 
 function Footer() {
   return (
-    <footer className="max-h-fit pt-12">
+    <footer className="max-h-fit">
       <div className="h-full grid grid-cols-2 sm:grid-cols-4 gap-1 bg-secondary *:p-2 *:bg-white text-center">
       <div className="flex flex-col gap-2">
           <h2>Car Rental</h2>
