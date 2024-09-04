@@ -1,6 +1,7 @@
-import PrimaryButton from "./ui/PrimaryButton";
-import { cars, dropofLocations, pickupLocations } from "../db";
+
 import { twMerge } from "tailwind-merge";
+import { cars, dropofLocations, pickupLocations } from "../../../db";
+import PrimaryButton from "../../../components/ui/PrimaryButton";
 
 
 function Booking({ className }: { className?: string }) {

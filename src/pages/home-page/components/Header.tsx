@@ -1,4 +1,5 @@
-import PrimaryButton from "./ui/PrimaryButton"
+import PrimaryButton from "../../../components/ui/PrimaryButton"
+
 
 function Header() {
   return (

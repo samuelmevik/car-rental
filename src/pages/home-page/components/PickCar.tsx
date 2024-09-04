@@ -1,8 +1,9 @@
 import { useState } from "react"
-import { Car, cars } from "../db"
-import PrimaryButton from "./ui/PrimaryButton"
+import { Car, cars } from "../../../db"
+import PrimaryButton from "../../../components/ui/PrimaryButton"
 
-function CarSelector() {
+
+function PickCar() {
   const [selectedCar, setSelectedCar] = useState<Car>(cars[0])
   return (
     <div>
@@ -58,4 +59,4 @@ function CarButton({ car, setSelectedCar }: { car: Car, setSelectedCar: (car: Ca
 }
 
 
-export default CarSelector
+export default PickCar

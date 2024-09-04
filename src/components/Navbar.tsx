@@ -4,6 +4,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { GoX } from "react-icons/go";
 import PrimaryButton from "./ui/PrimaryButton";
 
+
 function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);

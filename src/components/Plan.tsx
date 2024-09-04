@@ -1,7 +1,7 @@
 import { GiCarKey } from "react-icons/gi"
 import { IoCarSport, IoPerson } from "react-icons/io5"
 
-function OrderGuide() {
+function Plan() {
   return (
     <div>
       <h2 className="text-center">Plan your trip now</h2>
@@ -33,4 +33,4 @@ function OrderGuide() {
   )
 }
 
-export default OrderGuide
+export default Plan
