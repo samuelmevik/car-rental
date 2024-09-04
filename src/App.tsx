@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 import OrderGuide from "./components/OrderSection"
+import Testimonials from "./components/TestimonialsSection"
 import Wrapper from "./components/Wrapper"
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
       <Wrapper>
         <Header />
         <div className="grid gap-24">
-          <Booking />
+          <Booking className="mx-auto max-w-5xl" />
           <OrderGuide />
           <CarSelector />
+          <Testimonials className="mx-auto max-w-5xl" />
           <Footer />
         </div>
       </Wrapper>
