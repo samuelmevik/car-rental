@@ -3,6 +3,7 @@ import { FaCar } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import { GoX } from "react-icons/go";
 import PrimaryButton from "./ui/PrimaryButton";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -23,12 +24,12 @@ function Navbar() {
           }
         </button>
         <div className="hidden md:flex gap-4">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Models</a>
-          <a href="#">Testimonials</a>
-          <a href="#">Our Team</a>
-          <a href="#">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/models">Models</Link>
+          <Link to="/testimonials">Testimonials</Link>
+          <Link to="/our-team">Our Team</Link>
+          <Link to="/contact">Contact</Link>
         </div>
 
         <div className="hidden md:flex gap-4">
@@ -37,14 +38,14 @@ function Navbar() {
         </div>
 
         <div className={`fixed z-10 top-0 left-0 h-svh w-svw overflow-hidden bg-secondary transition-transform duration-500 ease-in-out -translate-x-full sm:!-translate-x-full ${isOpen && 'translate-x-0'}`}>
-          <ul className="flex flex-col items-center justify-center h-full gap-10 text-2xl  ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Models</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <div className="flex flex-col items-center justify-center h-full gap-10 text-2xl  ">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/models">Models</Link>
+            <Link to="/testimonials">Testimonials</Link>
+            <Link to="/our-team">Our Team</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
         </div>
       </div>
 
