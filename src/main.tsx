@@ -17,7 +17,7 @@ const router = createBrowserRouter([
   { path: '/our-team', element: <OurTeamPage /> },
   { path: '/contact', element: <ContactPage /> },
 ], {
-  basename: '/rental-car',
+  basename: '/car-rental/',
 })
 
 createRoot(document.getElementById('root')!).render(
