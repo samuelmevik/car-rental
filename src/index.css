@@ -5,6 +5,7 @@
 :root {
   --primary: #0ea5e9;
   --secondary: #bae6fd;
+  --tertiary: #e2e8f0;
 }
 
 body {
@@ -24,4 +25,9 @@ h1 {
 h2 {
   font-family: SpaceGrotesk-Medium;
   font-size: 32px;
+}
+
+h3 {
+  font-family: SpaceGrotesk-Medium;
+  font-size: 24px;
 }
