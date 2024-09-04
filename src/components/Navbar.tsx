@@ -4,9 +4,10 @@ import { CiMenuFries } from "react-icons/ci";
 import { GoX } from "react-icons/go";
 import PrimaryButton from "./ui/PrimaryButton";
 import { Link } from "react-router-dom";
+import { twMerge } from "tailwind-merge";
 
 
-function Navbar() {
+function Navbar({ className }: { className?: string }) {
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +16,7 @@ function Navbar() {
   }
 
   return (
-    <div className="z-50 h-16 w-full fixed backdrop-blur-lg">
+    <div className={twMerge("z-50 h-16 w-full fixed backdrop-blur-lg", className)}>
       <div className="size-full mx-auto max-w-7xl flex justify-between items-center p-2">
         <a className="z-40" href="#"><FaCar className="size-12 text-primary" /></a>
         <button className="z-20 md:hidden" onClick={toggleNavbar}>

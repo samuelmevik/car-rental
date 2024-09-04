@@ -5,8 +5,8 @@ import Wrapper from "./Wrapper";
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Navbar />
-      <Wrapper>
+      <Navbar className="h-16" />
+      <Wrapper className="pt-16">
         {children}
         <Footer />
       </Wrapper>
