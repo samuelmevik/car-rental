@@ -1,9 +1,13 @@
+import Directory from "../../components/Directory";
+import Layout from "../../components/Layout";
+import ContactForm from "./components/ContactForm";
+
 function ContactPage() {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>Coming soon...</p>
-    </div>
+    <Layout>
+      <Directory path="contact" />
+      <ContactForm />
+    </Layout>
   );
 }
 
