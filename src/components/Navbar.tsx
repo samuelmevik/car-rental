@@ -38,7 +38,7 @@ function Navbar({ className }: { className?: string }) {
           <PrimaryButton text="Sign Up" hover />
         </div>
 
-        <div className={`fixed z-10 top-0 left-0 h-svh w-svw overflow-hidden bg-secondary transition-transform duration-500 ease-in-out -translate-x-full sm:!-translate-x-full ${isOpen && 'translate-x-0'}`}>
+        <div className={`fixed z-10 top-0 left-0 h-lvh w-svw overflow-hidden bg-secondary transition-transform duration-500 ease-in-out -translate-x-full sm:!-translate-x-full ${isOpen && 'translate-x-0'}`}>
           <div className="flex flex-col items-center justify-center h-full gap-10 text-2xl  ">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
