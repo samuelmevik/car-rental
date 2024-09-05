@@ -63,6 +63,45 @@ const cars : Car[] = [
   }
 ]
 
+export type Employee = {
+  name: string;
+  title: string;
+  image: string;
+}
+
+const employees = [
+  {
+    name: "Ava Harrison",
+    title: "CEO",
+    image: "https://plus.unsplash.com/premium_photo-1661297414288-8ed17eb1b3f1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    name: "Liam Patterson",
+    title: "Tech Lead",
+    image: "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    name: "Ethan Cole",
+    title: "CFO",
+    image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    name: "Sophie Brooks",
+    title: "Operations Manager",
+    image: "https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    name: "Maya Reid",
+    title: "Marketing Head",
+    image: "https://images.pexels.com/photos/1197132/pexels-photo-1197132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    name: "Owen Clarke",
+    title: "Customer Service Lead",
+    image: "https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+];
+
 const pickupLocations = [
   "Airport",
   "City",
@@ -77,4 +116,4 @@ const dropofLocations = [
   "Suburb",
 ]
 
-export { cars, pickupLocations, dropofLocations }
+export { cars, pickupLocations, dropofLocations, employees }
