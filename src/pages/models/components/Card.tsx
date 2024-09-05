@@ -1,12 +1,13 @@
 import { FaCarSide } from "react-icons/fa";
 import { Car } from "../../../db";
 import { TbManualGearbox } from "react-icons/tb";
+import PrimaryButton from "../../../components/ui/PrimaryButton";
 
 function Card(car: Car) {
   return (
     <div className="bg-tertiary shadow-lg grid aspect-[3/4] max-w-sm size-full">
-      <div className="grid grid-rows-3">
-        <img src={car.img} alt={car.name} className="row-span-2 object-cover object-center size-full" />
+      <div className="grid grid-rows-2">
+        <img src={car.img} alt={car.name} className="object-cover object-center size-full" />
         <div className="grid px-4 pb-4">
           <div className="flex justify-center">
             <h3>
@@ -30,6 +31,7 @@ function Card(car: Car) {
             <p>AC: {car.ac}</p>
             <span className="inline-flex gap-1 items-center" ><TbManualGearbox /><p>{car.transmission}</p></span>
           </div>
+          <PrimaryButton text="Rent Now" hover />
         </div>
       </div>
     </div>
