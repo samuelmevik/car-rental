@@ -1,4 +1,6 @@
-function Card({ name, title, image }: { name: string, title: string, image: string }) {
+import { Employee } from "../../../db";
+
+function Card({ name, title, image }: Employee) {
   return (
     <div className="bg-tertiary shadow-lg grid aspect-[3/4] max-w-sm sm:max-w-none">
       <div className="grid grid-rows-4">
