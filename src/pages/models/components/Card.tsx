@@ -12,7 +12,7 @@ function Card(car: Car) {
           </div>
           <div className="flex justify-between">
             <h3>{car.name}</h3>
-            <h3>${car.price}<span className="text-primary">/</span><span className="text-base">per day</span></h3>
+            <h3 className="text-nowrap">${car.price}<span className="text-primary">/</span><span className="text-base">per day</span></h3>
           </div>
           <div className="flex justify-between">
             <p>🚘 {car.model}</p>
