@@ -6,7 +6,7 @@ function Testimonials({ className }: { className?: string }) {
       <div className="grid md:grid-cols-2 gap-8">
         <div className="md:col-span-2 text-center">
           <h2>Reviewed By People</h2>
-          <h1>Client's Testimonials</h1>
+          <h1>Client<span className="text-primary">'</span>s Testimonials</h1>
           <p className="text-balance">Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
         </div>
         <Card name="Neo" born="American" text="The booking process was as smooth as dodging bullets in slow motion, and the rates were a glitch in the Matrix—unbelievably low." review={96} img="https://i.pinimg.com/originals/31/e1/b0/31e1b00743eaeff77c7145ef403572fb.jpg" />

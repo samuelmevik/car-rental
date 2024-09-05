@@ -25,7 +25,7 @@ function Plan() {
           <div style={{ borderRadius: "23% 77% 68% 32% / 66% 33% 67% 34% " }} className="size-40 justify-self-center bg-secondary grid place-items-center">
             <GiCarKey className="size-28 text-primary" />
           </div>
-          <h2>Let's Drive</h2>
+          <h2>Let<span className="text-primary">'</span>s Drive</h2>
           <p className="text-balance">No matter where your journey takes you, our extensive selection of cars has you covered.</p>
         </div>
       </div>

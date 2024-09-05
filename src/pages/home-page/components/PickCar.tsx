@@ -20,7 +20,7 @@ function PickCar() {
         </div>
 
         <div className="flex flex-col sm:order-3">
-          <h2 className="bg-primary text-white text-center">${selectedCar.price} / rent per day</h2>
+          <h2 className="bg-primary text-white text-center">${selectedCar.price} / Per Day</h2>
           <div className="grid gap-3 flex-1">
             <CarDataEntry label="Name" value={selectedCar.name} />
             <CarDataEntry label="Model" value={selectedCar.model} />
@@ -29,7 +29,7 @@ function PickCar() {
             <CarDataEntry label="AC" value={selectedCar.ac} />
             <CarDataEntry label="Transmission" value={selectedCar.transmission} />
           </div>
-          <PrimaryButton className="border-t-0" text="Rent now" hover />
+          <PrimaryButton className="border-t-0" text="Rent Now" hover />
         </div>
       </div>
     </div>
