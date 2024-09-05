@@ -15,7 +15,6 @@ function Card(car: Car) {
           </div>
           <div className="flex justify-between">
             <h3>{car.name}</h3>
-
             <div className="grid">
               <h3 className="leading-none">${car.price} <span className="text-primary">/</span></h3>
               <p className="leading-none">per day</p>
