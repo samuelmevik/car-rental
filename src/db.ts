@@ -8,6 +8,7 @@ export type Car = {
   transmission: string;
   price: string;
   img: string;
+  stars: number;
 }
 
 const cars : Car[] = [
@@ -19,7 +20,8 @@ const cars : Car[] = [
     ac: "Yes",
     transmission: "Manual",
     price: "50",
-    img: "https://plus.unsplash.com/premium_photo-1664303847960-586318f59035?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    img: "https://plus.unsplash.com/premium_photo-1664303847960-586318f59035?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    stars: 5
   },
   {
     name: "BMW 3 Series",
@@ -29,7 +31,8 @@ const cars : Car[] = [
     ac: "Yes",
     transmission: "Automatic",
     price: "60",
-    img: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    img: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    stars: 4
   },
   {
     name: "Chevrolet Camaro",
@@ -39,7 +42,8 @@ const cars : Car[] = [
     ac: "Yes",
     transmission: "Automatic",
     price: "70",
-    img: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    img: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    stars: 4
   },
   {
     name: "Dodge Challenger",
@@ -49,7 +53,8 @@ const cars : Car[] = [
     ac: "Yes",
     transmission: "Automatic",
     price: "80",
-    img: "https://plus.unsplash.com/premium_photo-1663047616905-5bdff3c06010?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    img: "https://plus.unsplash.com/premium_photo-1663047616905-5bdff3c06010?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    stars: 5
   },
   {
     name: "Ford Mustang",
@@ -59,9 +64,22 @@ const cars : Car[] = [
     ac: "Yes",
     transmission: "Automatic",
     price: "90",
-    img: "https://images.unsplash.com/photo-1698205244154-28d627e3dcd4?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    img: "https://images.unsplash.com/photo-1698205244154-28d627e3dcd4?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    stars: 4
+  },
+  {
+    name: "Jaguar F-Type",
+    model: "Jaguar",
+    year: "2020",
+    doors:"2/5",
+    ac: "Yes",
+    transmission: "Automatic",
+    price: "100",
+    img: "https://images.pexels.com/photos/93652/pexels-photo-93652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stars: 3
   }
 ]
+
 
 export type Employee = {
   name: string;
