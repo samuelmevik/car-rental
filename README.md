@@ -10,8 +10,8 @@ View the live demo of the application:
 
 ### Screenshots ###
 
-![Car Rental Service Homepage](readme/home-page-s.png)
-![Car Rental Service Homepage](readme/about-page-s.png)
+![Car Rental Service Homepage](readme/home-page-s.PNG)
+![Car Rental Service Homepage](readme/about-page-s.PNG)
 
 ### Technologies Used ###
 
